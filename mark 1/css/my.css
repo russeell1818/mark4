@@ -1,0 +1,317 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    min-width:960px;
+}
+nav{
+    display: none;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(23, 32, 34);
+    position: fixed;
+    z-index: 12;
+
+}
+nav a{
+    line-height: 50px;
+    height: 100px;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+nav .animation{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    height: 100%;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+a:nth-child(1){
+    width: 200px;
+}
+a:nth-child(2){
+    width: 200px;
+}
+a:nth-child(3){
+    width: 200px;
+}
+a:nth-child(4){
+    width: 200px;
+}
+nav .start-home,
+a:nth-child(1):hover ~ .animation{
+    width: 200px;
+    left: 0;
+    background-color: rgb(31, 165, 218);
+}
+nav .start-about,
+a:nth-child(2):hover ~ .animation{
+    width: 200px;
+    left: 200px;
+    background-color: rgb(248, 31, 31);
+}
+nav .start-blog,
+a:nth-child(3):hover ~ .animation{
+    width: 200px;
+    left: 400px;
+    background-color: rgb(38, 248, 31);
+}
+nav .start-nine,
+a:nth-child(4):hover ~ .animation{
+    width: 200px;
+    left: 600px;
+    background-color: rgb(241, 31, 248);
+}
+.bisnes{
+    padding: 1px 0 20px 0;
+    min-height: 1600px;
+    background: url(../bg/94.jpg) center center/cover no-repeat;
+    background-attachment: fixed;
+}
+.bisnes_header{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+  .bisnes_subheader{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(0, 189, 179);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .bisnes_img img{
+    width: 500px;
+    height: 500px;
+  }
+.bisnes_img{
+    display: block;
+    margin: 26px auto;
+}
+
+.bisnes .bisnes_text{
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    width: 800px;
+    margin: 0 auto;
+}
+.bisnes_line{
+    border: none;
+    margin: 20px 0px 20px 200px;
+    width: 400px;
+    height: 4px;
+    margin: 20px auto;
+    background-color: #61baee;
+}
+    
+.culture{
+    position: relative;
+    padding: 20px 40px 20px 40px;
+    background: #e6e6e6;
+    min-height: 1700px;
+ }
+.culture_header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(0, 189, 179);
+    margin-top: 20px;
+}
+.culture_text{
+    width: 80%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.culture_lene{
+    background-color:rgb(3, 255, 179);
+}
+.kiev{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.kiev_img{
+    width: 500px;
+    height: 400px;
+    padding-left: 2%;
+}
+.kiev_text{
+    text-align: center;
+    float: right;
+    padding-right: 2%;
+    width: 500px;
+    height: 400px;
+    margin: -17px auto;
+    font-weight: 400;
+    font-size: 25px;
+}
+.lviv{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 40px;
+  margin-bottom: 40px;
+}
+.lviv_img{
+    width: 500px;
+    height: 300px;
+    float: right;
+}
+
+.lviv_text{
+    text-align: center;
+    float: left;
+    width: 500px;
+    height: 200px;
+    margin: 3px auto;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+.festevals{
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: absolute;
+    left: 47%;
+    bottom: 27%;
+}
+.festevals_img{
+    margin: 0 auto;
+    padding-top: 20%;
+    width: 500px;
+    height: 300px;
+}
+.festevals_text{
+    position: absolute;
+    bottom: 3%;
+    right: 7%;
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.education{
+    background-color: rgb(10, 58, 58);
+    background-attachment: fixed;
+    padding: 0 20px 0 20px;
+    position: relative;
+    min-height: 900px;
+}
+.education_header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(0, 189, 179);
+    margin: 0;
+    padding-top: 20px;
+}
+.education_textA{
+    display: block;
+    text-align: center;
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    width: 343px;
+    height: 228px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.education_textB{
+    position: absolute;
+    left: 35%;
+    top: 29%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 399px;
+    height: 208px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.education_textC{
+    position: absolute;
+    right: 20px;
+    top: 7%;
+    text-align: center;
+    float: right;
+    font-size: 16px;
+    font-weight: 400;
+    width: 365px;
+    height: 242px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.education_textD{
+    position: absolute;
+    left: 35%;
+    bottom: 8%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    width: 403px;
+    height: 344px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.b{
+    width: 200px;
+    background-color: rgb(0, 189, 179);
+    height: 4px;
+    border: none;
+}
+.social_problems{
+    min-height: 1000px;
+}
+.social_header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(0, 189, 179);
+    margin: 0;
+    padding-top: 20px;
+}
+.social_text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.poverty h3 , .corruption h3, .discrimination h3, .violence h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(0, 189, 179);
+    margin: 0;
+    padding-top: 20px;
+}
+.poverty , .corruption, .discrimination, .violence{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
